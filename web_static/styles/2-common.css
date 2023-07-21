@@ -1,0 +1,18 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: "Circular", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  }
+  
+  /* Icono en la pestaña del navegador */
+  /* Reemplaza "favicon.ico" con la ruta del icono que deseas utilizar */
+  /* Por ejemplo, si el icono está en la misma carpeta que este archivo CSS, puedes usar simplemente "favicon.ico" */
+  /* Si el icono está en una carpeta diferente, asegúrate de proporcionar la ruta correcta */
+  /* Si no tienes un icono personalizado, puedes omitir esta parte y el navegador mostrará un icono predeterminado */
+  /* El formato más común para los iconos de pestañas es .ico, pero también puedes usar otros formatos compatibles con navegadores modernos como .png o .svg */
+  /* Aquí está el código para incluir el icono: */
+  /* <link rel="icon" type="image/x-icon" href="favicon.ico"> */
+  
