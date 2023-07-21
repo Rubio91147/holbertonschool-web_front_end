@@ -630,3 +630,22 @@ Esto se logra mediante la siguiente regla CSS: */
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
   }
+   /* --- footer-address ---  */
+
+   .footer-address{
+    color: var(--text-color);
+  }
+
+  .social-link{
+    display: block;
+  }
+
+/* 
+  --- El combinador secundario ( >) se coloca entre dos selectores
+  de CSS. Coincide solo con los elementos coincidentes con el
+  segundo selector que son los hijos directos de los elementos
+  coincidentes con el primero.--- */
+
+  .social-link > svg{
+    fill: var(--text-color);
+  }
