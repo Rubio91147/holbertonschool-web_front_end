@@ -287,14 +287,11 @@
    * 1. Correct the odd appearance in Chrome and Safari.
    * 2. Correct the outline style in Safari.
    */
- /* Aplicar solo en navegadores WebKit */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    [type="search"] {
-      -webkit-appearance: textfield;
-      outline-offset: -2px;
-    }
-  }
   
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
   
   /**
    * Remove the inner padding in Chrome and Safari on macOS.
@@ -421,6 +418,14 @@
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
+
+
+    --header-padding: 4rem 0 0;
+    --header-logo-position: relative;
+    --header-logo-link-display: inline-block;
+    --header-logo-link-position: absolute;
+    --header-logo-link-top: -1rem;
+    --header-logo-link-left: 0;
   }
 
 
@@ -736,4 +741,21 @@ Esto se logra mediante la siguiente regla CSS: */
   .section-hero .section-inner{
     padding: 10rem 40rem 2rem 0;
   }
+
+
+  /* --- header --- */
   
+  .header {
+    padding: var(--header-padding);
+  }
+  
+  .header-logo {
+    position: var(--header-logo-position);
+  }
+  
+  .header-logo a {
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
+  }
